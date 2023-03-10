@@ -89,7 +89,8 @@ ul{
 	margin-top: 3rem;
 	display: grid;
 	grid-template-columns: 33% 33% 33% ;
-	grid-template-rows: 50% 50% ;
+	grid-template-rows: 47% 47% ;
+	grid-row-gap: 6%;
 }
 
 .gallery-6-grid img{
@@ -127,19 +128,150 @@ ul{
 
 .pop-up-sub-sub{
 	width: 80%;
-	display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+	display: grid;
+    grid-template-columns: 50% 50%;
 }
 
 .pop-up-img{
 	width: 10rem;
 }
 
+.kalimba{
+	background-image: url(kalimba.jpg);
+}
+
+
+.mate{
+	background-image: url(mate.jpg);
+}
+
+.fotos{
+	background-image: url(fotos.jpg);
+}
+
+.vino{
+	background-image: url(vino.jpg);
+}
+
+.dibujo{
+	background-image: url(dibujo.jpg);
+}
+
+
+.letra{
+	background-image: url(letra.jpg);
+}
+.columpio{
+	background-image: url(columpio.jpg);
+}
+
+.museo{
+	background-image: url(cat.jpg);
+}
+
+.asama{
+	background-image: url(asama.jpg);
+}
+
+.hiroshima{
+	background-image: url(hiroshima.jpg);
+}
+
+.ticket{
+	background-image: url(ticket.jpg);
+}
+
+.polaraid{
+	background-image: url(polaraid.jpg);
+}
+
+
+.poncho{
+	background-image: url(poncho.jpg);
+}
+
+.vaca{
+	background-image: url(vaca.jpg);
+}
+
+.chiquita{
+	background-image: url(chiquita.jpg);
+}
+
+.guitarra{
+	background-image: url(guitarra.jpg);
+}
+
+.cuarto{
+	background-image: url(cuarto.jpg);
+}
+
+.achiras{
+	background-image: url(achiras.jpg);
+}
+
+
+.snow{
+	background-image: url(snow.jpg);
+}
+
+.shirt{
+	background-image: url(shirt.jpg);
+}
+
+.shadow{
+	background-image: url(shadow.jpg);
+}
+
+.spot{
+	background-image: url(spot.jpg);
+}
+
+.table{
+	background-image: url(table.jpg);
+}
+
+.dibujos{
+	background-image: url(dibujos.jpg);
+}
+
+.cerveza{
+	background-image: url(cerveza.jpg);
+}
+
+.praga{
+	background-image: url(praga.jpg);
+}
+
+.cami{
+	background-image: url(cami.jpg);
+}
+
+.museum{
+	background-image: url(museum.jpg);
+}
+
+.berlin{
+	background-image: url(berlin.jpg);
+}
+
+.libro{
+	background-image: url(libro.jpg);
+}
+
+
+.pop-up-preview{
+	background-size: cover;
+	background-position: center;
+	width: 15rem;
+	height: 15rem;
+	justify-items: center;
+	align-items: center;
+}
+
+
 .flex-img-div{
 	margin-top: 2rem;
-	background-image: url(mate.jpg);
 	background-size: cover;
 	width: 18rem;
     height: 18rem;
@@ -149,9 +281,17 @@ ul{
 	display: none;
 }
 
+.scroll{
+	overflow-y: scroll;
+	height: 70vh;
+}
+
 .grow { transition: all .2s ease-in-out; }
 .grow:hover { transform: scale(1.4); }
 
+/*.pop-up-preview { transition: all .2s ease-in-out; }
+.pop-up-preview:hover { transform: scale(1.4); }
+*/
 .close-icon{
 	width: 100%;
     display: flex;
